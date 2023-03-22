@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+    <Button
+        android:id="@+id/addsummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_margin="15dp"
+        android:text="打卡"
+        />
+    >
+    <Button
+        android:id="@+id/addclock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_margin="15dp"
+        android:text="设置事件"
+        />
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="学生登录"
+    android:textColor="@color/purple_200"
+    android:textSize="15pt"
+    android:layout_gravity="center"
+    />
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:inputType="number"
+        android:hint="请输入学号"
+        android:textSize="10pt"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="请输入密码"
+        android:inputType="numberPassword"
+        android:textSize="10pt"/>
+    <Button
+        android:id="@+id/stulogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textSize="15pt"
+        android:textColor="@android:color/holo_orange_dark"
+        android:text="登录"
+        />
+    <Button
+        android:id="@+id/sturesiger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textSize="15pt"
+        android:textColor="@android:color/holo_orange_dark"
+        android:text="注册"
+        />
+</LinearLayout>

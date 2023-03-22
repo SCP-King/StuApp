@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="学号"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="12pt"
+        android:layout_margin="15dp"
+        />
+
+    <EditText
+        android:id="@+id/stuid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="12pt"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="姓名"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="12pt"
+        android:layout_margin="15dp"
+        />
+
+    <EditText
+        android:id="@+id/stuname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="12pt"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="电话号码"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="12pt"
+        android:layout_margin="15dp"
+        />
+
+    <EditText
+        android:id="@+id/stuphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="12pt"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="班级"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="12pt"
+        android:layout_margin="15dp"
+        />
+
+    <EditText
+        android:id="@+id/stuclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="12pt"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="密码"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="12pt"
+        android:layout_margin="15dp"
+        />
+
+    <EditText
+        android:id="@+id/stupassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:textSize="12pt"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <Button
+        android:id="@+id/resiger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textSize="12pt"
+        android:layout_margin="15dp"
+        />
+</LinearLayout>
